@@ -1,0 +1,32 @@
+I"�<h2 id="简介">简介</h2>
+<blockquote>
+  <p>Gradle is an open-source build automation tool focused on flexibility and performance. Gradle build scripts are written using a Groovy or Kotlin DSL. Read about Gradle features to learn what is possible with Gradle.<br />
+Highly customizable — Gradle is modeled in a way that customizable and extensible in the most fundamental ways.<br />
+Fast — Gradle completes tasks quickly by reusing outputs from previous executions, processing only inputs that changed, and executing tasks in parallel.<br />
+Powerful — Gradle is the official build tool for Android, and comes with support for many popular languages and technologies.</p>
+  <h3 id="特点">特点</h3>
+  <ol>
+    <li>声明式构建和合约构建</li>
+    <li>基于依赖的编程语言</li>
+    <li>API深化</li>
+    <li>Gradle拓展</li>
+    <li>多项目构建</li>
+    <li>多种方式来管理你的依赖</li>
+    <li>Gradle是第一个构建整合工具</li>
+    <li>易于迁徙</li>
+    <li>Groovy</li>
+    <li>Groovy包装器</li>
+    <li>免费和开源
+      <h2 id="安装">安装</h2>
+      <ul>
+        <li>先觉条件<br />
+Groovy需要运行在一个Java环境里</li>
+      </ul>
+      <ul>
+        <li>安装一个Java JDK或者JRE，版本必须是6以上</li>
+        <li>Gradle自带Groovy库，所以没必要安装Groovy，任何已经安装的Groovy会被忽略</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+:ET

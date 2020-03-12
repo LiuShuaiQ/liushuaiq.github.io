@@ -1,0 +1,45 @@
+I"�<h1 id="jekyll搭建blog笔记">Jekyll搭建blog笔记</h1>
+
+<h2 id="jekyll安装">Jekyll安装</h2>
+<p><a href="https://www.jekyll.com.cn/docs/">安装文档</a></p>
+<ul>
+  <li>安装完整的<a href="https://www.jekyll.com.cn/docs/installation/">Ruby开发环境</a></li>
+  <li>在./myblog目录下创建一个全新的jekyll网站<br />
+$: <code class="highlighter-rouge">jekyll new myblog</code></li>
+  <li>进入目录<br />
+$: <code class="highlighter-rouge">cd myblog</code></li>
+  <li>构建网站并启动一个本地服务器<br />
+$: <code class="highlighter-rouge">bundle exec jekyll serve</code></li>
+  <li>在浏览器中打开 http://localhost:4000 网址</li>
+</ul>
+
+<h2 id="获取本博客模板">获取本博客模板</h2>
+<ul>
+  <li>
+    <p>clone项目<br />
+$: <code class="highlighter-rouge">git clone https://github.com/leopardpan/leopardpan.github.io.git</code></p>
+  </li>
+  <li>
+    <p>进入目录<br />
+$: <code class="highlighter-rouge">cd leopardpan.github.io</code></p>
+  </li>
+  <li>
+    <p>启动服务<br />
+$: <code class="highlighter-rouge">jekyll server</code></p>
+  </li>
+  <li>
+    <p>在浏览器输入 http://localhost:4000 ， 就可以看到博客效果了。</p>
+  </li>
+</ul>
+
+<h2 id="修改配置">修改配置</h2>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">_posts/</code> 放入的是文章，全部去掉放入自己的文章即可</p>
+  </li>
+  <li>
+    <p>修改<code class="highlighter-rouge">_config.yml</code>文件里面的内容为你的个人信息</p>
+  </li>
+</ul>
+:ET

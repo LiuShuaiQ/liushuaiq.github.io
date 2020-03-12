@@ -1,0 +1,73 @@
+I"�<h3 id="标签的重点">标签的重点</h3>
+<ol>
+  <li>标签的用途</li>
+  <li>标签在浏览器中的默认样式</li>
+</ol>
+
+<ul>
+  <li><code class="highlighter-rouge">&lt;body&gt;</code>标签: 在网页上显示的内容</li>
+  <li><code class="highlighter-rouge">&lt;p&gt;</code>标签: 添加段落</li>
+  <li><code class="highlighter-rouge">&lt;hx&gt;</code>标签: 添加标题<br />
+  标签一共有6个，h1、h2、h3、h4、h5、h6分别为一级标题、二级标题、三级标题、四级标题、五级标题、六级标题。并且依据重要性递减。<code class="highlighter-rouge">&lt;h1&gt;</code>是最高的等级。</li>
+  <li><code class="highlighter-rouge">&lt;string&gt;</code>和<code class="highlighter-rouge">&lt;em&gt;</code>标签: 强调<br />
+  <code class="highlighter-rouge">&lt;em&gt;</code> 表示强调，<code class="highlighter-rouge">&lt;strong&gt;</code> 表示更强烈的强调。并且在浏览器中<code class="highlighter-rouge">&lt;em&gt;</code> 默认用斜体表示，<code class="highlighter-rouge">&lt;strong&gt;</code> 用粗体表示。两个标签相比，目前国内前端程序员更喜欢使用<code class="highlighter-rouge">&lt;strong&gt;</code>表示强调。</li>
+  <li><code class="highlighter-rouge">&lt;span&gt;</code>标签: 为文字设置单独样式
+    <ol>
+      <li><code class="highlighter-rouge">&lt;em&gt;</code>和<code class="highlighter-rouge">&lt;strong&gt;</code>标签是为了强调一段话中的关键字时使用，它们的语义是强调。</li>
+      <li><code class="highlighter-rouge">&lt;span&gt;</code>标签是没有语义的，它的作用就是为了设置单独的样式用的。</li>
+    </ol>
+  </li>
+  <li><code class="highlighter-rouge">&lt;q&gt;</code>标签: 短文本引用<br />
+  语法: <code class="highlighter-rouge">&lt;q&gt;引用文本&lt;/p&gt;</code><br />
+  语义: 引用别人的话<br />
+  注意要引用的文本不用加双引号，浏览器会对q标签自动添加双引号。</li>
+  <li><code class="highlighter-rouge">&lt;blockquote&gt;</code>标签: 长文本的引用<br />
+  语法: <code class="highlighter-rouge">&lt;blockquote&gt;</code>引用文本<code class="highlighter-rouge">&lt;/blockquote&gt;</code><br />
+  语义: 长文本引用。<br />
+  表现: 浏览器对<code class="highlighter-rouge">&lt;blockquote&gt;</code>标签的解析是缩进样式。</li>
+  <li><code class="highlighter-rouge">&lt;br&gt;</code>标签: 分行显示文本<br />
+  语法: <code class="highlighter-rouge">&lt;br/&gt;</code>-空标签<br />
+  语义: 回车。
+    <blockquote>
+      <p>在 html 代码中输入回车、空格都是没有作用的。在html文本中想输入回车换行，就必须输入<code class="highlighter-rouge">&lt;br /&gt;</code>。</p>
+    </blockquote>
+  </li>
+  <li><code class="highlighter-rouge">&amp;nbsp;</code> : 空格<br />
+  语法: <code class="highlighter-rouge">&amp;nbsp;</code><br />
+  语义: 空格</li>
+  <li><code class="highlighter-rouge">&lt;hr&gt;</code>标签: 添加水平横线<br />
+  语法:
+    <ul>
+      <li>html4.0.1版本: <code class="highlighter-rouge">&lt;hr&gt;</code></li>
+      <li>xhtml1.0版本: <code class="highlighter-rouge">&lt;hr /&gt;</code></li>
+    </ul>
+
+    <p>语义: 分隔的横线</p>
+  </li>
+  <li><code class="highlighter-rouge">&lt;address&gt;</code>标签: 为网页加入地址信息
+    <blockquote>
+      <p>一般网页中会有一些网站的联系地址信息需要在网页中展示出来，这些联系地址信息如公司的地址就可以&lt;address&gt;标签。也可以定义一个地址（比如电子邮件地址）、签名或者文档的作者身份。</p>
+    </blockquote>
+
+    <p>语法: <code class="highlighter-rouge">&lt;address&gt;</code>联系地址信息<code class="highlighter-rouge">&lt;/address&gt;</code><br />
+  语义: 地址信息<br />
+  表现: 斜体（可以通过css修改）</p>
+  </li>
+  <li><code class="highlighter-rouge">&lt;code&gt;</code>标签: 添加单行代码
+  语法: <code class="highlighter-rouge">&lt;code&gt;</code>代码语言<code class="highlighter-rouge">&lt;/code&gt;</code><br />
+  语义: 添加单行代码
+    <blockquote>
+      <p>如果是多行代码，可以使用<code class="highlighter-rouge">&lt;pre&gt;</code>标签。</p>
+    </blockquote>
+  </li>
+  <li><code class="highlighter-rouge">&lt;pre&gt;</code>标签: 加入多行代码<br />
+  语法: <code class="highlighter-rouge">&lt;pre&gt;</code>多行代码<code class="highlighter-rouge">&lt;/pre&gt;</code><br />
+  语义: 预格式化的文本。<br />
+  表现: 通常会保留空格和换行符。
+    <blockquote>
+      <p><code class="highlighter-rouge">&lt;pre&gt;</code> 标签不只是为显示计算机的源代码时用的，在你需要在网页中预显示格式时都可以使用它，只是<code class="highlighter-rouge">&lt;pre&gt;</code>标签的一个常见应用就是用来展示计算机的源代码。</p>
+    </blockquote>
+  </li>
+</ul>
+
+:ET

@@ -1,0 +1,82 @@
+I"A<h3 id="简介">简介</h3>
+
+<ol>
+  <li><strong>HTML是网页内容的载体。</strong> 内容就是网页制作者放在页面上想要让用户浏览的信息，可以包含文字，图片，视频等。</li>
+  <li><strong>CSS样式是表现。</strong> 就像网页的外衣。比如，标题文字，颜色变化，或为标题加入背景图片，边框等。所有这些用来改变内容外观的东西称之为变现。</li>
+  <li><strong>JavaScript是用来实现网页上的特效效果。</strong> 如：鼠标滑过弹出下拉菜单。或鼠标滑过表格的背景颜色改变。还有焦点新闻（新闻图片）的轮换。可以这么理解，有动画的，有交互的一般都是用JavaScript来实现的。</li>
+</ol>
+
+<h3 id="认识html标签">认识Html标签</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="cp">&lt;!DOCTYPE HTML&gt;</span>
+    <span class="nt">&lt;html&gt;</span>
+        <span class="nt">&lt;head&gt;</span>
+            <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"Content-Type"</span> <span class="na">content=</span><span class="s">"text/html; charset=utf-8"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;title&gt;</span>认识html标签<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;/head&gt;</span>
+        <span class="nt">&lt;body&gt;</span>
+            <span class="nt">&lt;h1&gt;</span>勇气<span class="nt">&lt;/h1&gt;</span>
+            <span class="nt">&lt;p&gt;</span>三年级时，我还是一个胆小如鼠的小女孩，上课从来不敢回    答老师提出的问题，生怕回答错了老师会批评我。就一直没有这    个勇气来回答老师提出的问题。学校举办的活动我也没勇气参    加。<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;p&gt;</span>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，就我没有举手。<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://img.mukewang.com/52b4113500018cf102000200.jpg"</span> <span class="nt">&gt;</span>
+        <span class="nt">&lt;/body&gt;</span>
+    <span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p><strong>语法</strong></p>
+<ol>
+  <li>
+    <p>标签由英文尖括号<code class="highlighter-rouge">&lt;</code>和<code class="highlighter-rouge">&gt;</code>括起来，如<code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code>就是一个标签。</p>
+  </li>
+  <li>
+    <p>html中的标签一般都是成对出现的，分开始标签和结束标签。结束标签比开始标签多了一个/。</p>
+  </li>
+  <li>
+    <p>标签与标签之间是可以嵌套的，但先后顺序必须保持一致，如：<code class="highlighter-rouge">&lt;div&gt;</code>里嵌套<code class="highlighter-rouge">&lt;p&gt;</code>，那么<code class="highlighter-rouge">&lt;/p&gt;</code>必须放在<code class="highlighter-rouge">&lt;/div&gt;</code>的前面。</p>
+  </li>
+  <li>
+    <p>HTML标签不区分大小写，<code class="highlighter-rouge">&lt;h1&gt;</code>和<code class="highlighter-rouge">&lt;H1&gt;</code>是一样的，但建议小写，因为大部分程序员都以小写为准。</p>
+  </li>
+</ol>
+
+<h3 id="html文件基本结构">Html文件基本结构</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;html&gt;</span>
+        <span class="nt">&lt;head&gt;</span>...<span class="nt">&lt;/head&gt;</span>
+        <span class="nt">&lt;body&gt;</span>...<span class="nt">&lt;/body&gt;</span>
+    <span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<ol>
+  <li>
+    <p><code class="highlighter-rouge"><span class="nt">&lt;html&gt;&lt;/html&gt;</span></code>称为根标签，所有的网页标签都在<code class="highlighter-rouge"><span class="nt">&lt;html&gt;&lt;/html&gt;</span></code>中。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">&lt;head&gt;</code> 标签用于定义文档的头部，它是所有头部元素的容器。头部元素有<code class="highlighter-rouge">&lt;title&gt;</code>、<code class="highlighter-rouge">&lt;script&gt;</code>、 <code class="highlighter-rouge">&lt;style&gt;</code>、<code class="highlighter-rouge">&lt;link&gt;</code>、 <code class="highlighter-rouge">&lt;meta&gt;</code>等标签，头部标签在下一小节中会有详细介绍。</p>
+  </li>
+  <li>
+    <p>在<code class="highlighter-rouge">&lt;body&gt;</code>和<code class="highlighter-rouge">&lt;/body&gt;</code>标签之间的内容是网页的主要内容，如<code class="highlighter-rouge">&lt;h1&gt;</code>、<code class="highlighter-rouge">&lt;p&gt;</code>、<code class="highlighter-rouge">&lt;a&gt;</code>、<code class="highlighter-rouge">&lt;img&gt;</code>等网页内容标签，在这里的标签中的内容会在浏览器中显示出来。</p>
+  </li>
+</ol>
+
+<h3 id="head标签">Head标签</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>...<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;meta&gt;</span>
+        <span class="nt">&lt;link&gt;</span>
+        <span class="nt">&lt;style&gt;</span><span class="o">...</span><span class="nt">&lt;/style&gt;</span>
+        <span class="nt">&lt;script&gt;</span><span class="p">...</span><span class="nt">&lt;/script&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+</code></pre></div></div>
+
+<p>档的头部描述了文档的各种属性和信息，包括文档的标题等。绝大多数文档头部包含的数据都不会真正作为内容显示给读者。</p>
+
+<ul>
+  <li><code class="highlighter-rouge">&lt;title&gt;</code>标签: 在<code class="highlighter-rouge">&lt;title&gt;</code>和<code class="highlighter-rouge">&lt;/title&gt;</code>标签之间的文字内容是网页的标题信息，它会出现在浏览器的标题栏中。</li>
+</ul>
+
+<h3 id="注释">注释</h3>
+
+<ul>
+  <li>语法： <br />
+<code class="highlighter-rouge">&lt;!--注释文字 --&gt;</code></li>
+</ul>
+:ET
