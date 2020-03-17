@@ -51,26 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# 转换
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: true
-
-  # coderay:
-  #   coderay_wrap:              div
-  #   coderay_line_numbers:      inline
-  #   coderay_line_number_start: 1
-  #   coderay_tab_width:         4
-  #   coderay_bold_every:        10
-  #   coderay_css:               style
