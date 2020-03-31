@@ -36,7 +36,8 @@
 * –link 与另外一个容器建立起联系，这样我们就可以在当前容器中去使用另一个容器里的服务。    
 
 **安装PHP模块**:     
-`docker-php-ext-install pdo_mysql`     
+进入PHP容器执行：`docker exec -it <容器ID> /bin/bash `       
+安装mysql模块: `docker-php-ext-install pdo_mysql`       
 
 **查看PHP拓展模块**:    
 `php  -m`    
