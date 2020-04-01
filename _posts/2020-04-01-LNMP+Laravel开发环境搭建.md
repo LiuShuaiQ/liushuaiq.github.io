@@ -135,11 +135,12 @@ server
 重新加载nginx:    
 `nginx -s reload`    
 
-将项目的`storage`和`storage/logs`和`storage/framework/sessions`权限设置为777:    
+将项目的`storage`和`storage/logs`和`storage/framework/sessions`以及`storage/framework/views`权限设置为777:    
 ```
 chmod 777 storage
 chmod 777 logs
 chmod 777 sessions
+chmod 777 views
 ```
 
 执行命令:    
