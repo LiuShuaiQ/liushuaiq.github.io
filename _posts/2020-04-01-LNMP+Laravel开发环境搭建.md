@@ -1,9 +1,19 @@
+---
+layout: post
+title: "LNMP+Laravel开发环境搭建记录"
+tag: PHP Laravel
+---   
+
 # LNMP+Laravel开发环境搭建记录
+
+--- 
 
 ## 准备工作  
 
 - Linux操作系统
 - git工具
+
+--- 
 
 ## 安装LNMP   
 
@@ -15,6 +25,8 @@
 
 - 运行脚本(执行会需要一段时间)  
 `$sudo ./install.sh`  
+
+--- 
 
 ## 安装php composer和npm
 
@@ -77,6 +89,8 @@ $:npm install express --registry=https://registry.npm.taobao.org
 $:npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
+--- 
+
 ## 配置开发项目  
 
 ### clone 开发项目
@@ -131,6 +145,7 @@ chmod 777 sessions
 执行命令:    
 `php artisan key:generate`   
 
+---- 
 
 ## 常见问题   
 ----

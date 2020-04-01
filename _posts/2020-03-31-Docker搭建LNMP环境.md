@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Docker搭建LNMP环境"
+tag: Docker PHP 
+---   
 # Docker搭建LNMP环境
 ---
 
