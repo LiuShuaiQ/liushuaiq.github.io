@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Java诊断工具Arthas简介"
+date:   2020-04-10 10:24:19 +0800
+categories: Java
+---
 # Java诊断工具Arthas
 
 ## 简介
@@ -23,6 +29,9 @@ java -jar arthas-boot.jar -h
 java -jar arthas-boot.jar --repo-mirror aliyun --use-http
 ```
 
-## 使用
+
+## 相关文档
+
+[Arthas基础教程](https://alibaba.github.io/arthas/arthas-tutorials?language=cn)
 
 
